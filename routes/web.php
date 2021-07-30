@@ -33,8 +33,8 @@ Route::get('/Mes-realisations', function () {
     return view('realisations');
 });
 
-Route::get('/Blog', function () {
-    return view('blog');
+Route::get('/Ma-formation', function () {
+    return view('formations');
 });
 
 Route::get('/Contactez-moi', function () {

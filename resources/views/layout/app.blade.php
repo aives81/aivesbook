@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Schmidt - Free Bootstrap 5 Template by Colorlib</title>
+    <title>{ aivesBook }</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -14,20 +14,20 @@
 <nav class="navbar ftco-navbar-light">
     <div class="container-xl">
         <a class="navbar-brand align-items-center" href="{{ __('/') }}">
-            <span class="">Schmt.</span>
+            <span class="" style="font-family: Apple Chancery; font-size: 35px">{ aivesBook }</span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class=""></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item"><a class="nav-link active" href="{{ __('/') }}">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{ __('/About-me') }}">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{ __('/Mes-services') }}">Services</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{ __('/Mes-experiences') }}">Experiences</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{ __('/Mes-realisations') }}">Works</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{ __('/Blog') }}">Blog</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{ __('/Contactez-moi') }}">Contact</a></li>
+                <li class="nav-item"><a class="nav-link active" href="{{ __('/') }}">Acceuil</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ __('/About-me') }}">Apropos de moi</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ __('/Mes-experiences') }}">Mon expérience</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ __('/Ma-formation') }}">Ma formation</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ __('/Mes-realisations') }}">Mes réalisations</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ __('/Mes-services') }}">Mes services</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ __('/Contactez-moi') }}">Me contacter</a></li>
             </ul>
 
         </div>
